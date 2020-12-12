@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.yesim.test.runner.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 1.451 s <<< FAILURE! - in com.yesim.test.runner.CucumberRunner
+Geçersiz kullanıcı ile uygulamaya giriş yapmaya çalışma senaryo(Login test senaryoları)  Time elapsed: 0.253 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\91098874\Desktop\CucumberTestAutomationProject\.\drivers\chromedriver
+
+Geçerli kullanıcı ile uygulamaya giriş yapmaya çalışma senaryo(Login test senaryoları)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\91098874\Desktop\CucumberTestAutomationProject\.\drivers\chromedriver
+
+Geçerli kullanıcı ile uygulamaya başarılı giriş yaptıktan sonra swipe senaryo(Login test senaryoları)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\91098874\Desktop\CucumberTestAutomationProject\.\drivers\chromedriver
+
+Geçerli kullanıcı ile uygulamaya başarılı giriş yaptıktan sonra arama yapma(Login test senaryoları)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\91098874\Desktop\CucumberTestAutomationProject\.\drivers\chromedriver
+
+Geçerli kullanıcı ile uygulamaya başarılı giriş yaptıktan sonra arama yapılıp istenilen ürün seçilir(Login test senaryoları)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\91098874\Desktop\CucumberTestAutomationProject\.\drivers\chromedriver
+
+com.yesim.test.runner.CucumberRunner  Time elapsed: 0.021 s  <<< ERROR!
+java.lang.NullPointerException: No format for key faıled
+
